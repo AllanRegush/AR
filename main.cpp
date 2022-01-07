@@ -1,6 +1,7 @@
 #include <cstdio>
 #include "StaticVector.h"
 #include "StaticCharBuffer.h"
+#include "Math.h"
 
 int main()
 {
@@ -13,4 +14,5 @@ int main()
     buff.append('+');
     buff.append('+');
     std::printf("String: %s Size: %d\n", buff.data(), buff.size());
+    std::printf("Is Power Of Two %d\n", AR::is_power_of_two(4));
 }

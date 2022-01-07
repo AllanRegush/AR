@@ -9,4 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(AR main.cpp
     StaticVector.h
-    StaticCharBuffer.h)
+    StaticCharBuffer.h
+    Math.h
+    ARStdInt.h)
