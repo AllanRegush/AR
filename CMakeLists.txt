@@ -11,4 +11,5 @@ add_executable(AR main.cpp
     StaticVector.h
     StaticCharBuffer.h
     Math.h
-    ARStdInt.h)
+    ARStdInt.h
+    StringView.h)
